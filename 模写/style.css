@@ -74,16 +74,16 @@ header p{
     z-index: -1;
 }
 
-.middle-contents{
+.top-contents{
     text-align: center;
     padding-top: 169px;
 }
 
-.middle-contents h1{
+.top-contents h1{
     font-size: 36px;
 }
 
-.middle-contents p{
+.top-contents p{
     font-size: 28px;
 }
 
