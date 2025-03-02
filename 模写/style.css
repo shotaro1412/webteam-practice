@@ -101,3 +101,10 @@ header p{
     line-height: 52px;
     font-size: 20px;
 }
+
+/* main-top */
+/* main-middle */
+
+#middle-contents{
+    display: flex;
+}
