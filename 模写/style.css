@@ -32,6 +32,44 @@ img {
     width: 100%;
 }
 
+/* components */
+.greenbox{
+    background-color: #60CAAD;
+    border-radius: 4px;
+}
+
+.greenbox p{
+    color: white;
+    text-align: center;
+}
+#header-greenbox{
+    height: 52px;
+    width: 160px;
+}
+#header-greenbox p{
+    line-height: 52px;
+    font-size: 18px;
+}
+#top-greenbox{
+    margin: 48px auto 0 auto;
+    height: 52px;
+    width: 400px;
+}
+#top-greenbox p{
+    line-height: 52px;
+    font-size: 20px;
+}
+#bottom-greenbox{
+    margin: 8px auto;
+    height: 52px;
+    width: 400px;
+}
+#bottom-greenbox p{
+    line-height: 52px;
+    font-size: 20px;
+}
+
+/* components */
 header{
     display: flex;
     padding-top: 14px;
@@ -42,20 +80,6 @@ header{
 }
 header p{
     font-size: 28px;
-}
-
-.header-greenbox{
-    background-color: #60CAAD;
-    height: 52px;
-    width: 160px;
-    border-radius: 4px;
-}
-
-.header-greenbox p{
-    color: white;
-    text-align: center;
-    line-height: 52px;
-    font-size: 18px;
 }
 /* header */
 /* main-top */
@@ -84,22 +108,8 @@ header p{
 }
 
 .top-contents p{
+    margin-top: 8px;
     font-size: 28px;
-}
-
-.main-greenbox{
-    margin: 15px auto;
-    background-color: #60CAAD;
-    height: 52px;
-    width: 400px;
-    border-radius: 4px;
-}
-
-.main-greenbox p{
-    color: white;
-    text-align: center;
-    line-height: 52px;
-    font-size: 20px;
 }
 
 /* main-top */
@@ -112,7 +122,7 @@ header p{
     padding-right: 224px;
 }
 
-#middle h1{
+#middle h2{
     margin-top: 72px;
     font-size: 28px;
 }
@@ -134,3 +144,60 @@ header p{
     background-color: #60CAAD;
     margin: 0 auto;
 }
+/* main-bottom */
+#bottom{
+    background-color: #f9f9f9;
+    width: 1440px;
+    height: 418px;
+    text-align: center;
+    padding-top: 26px;
+}
+h3{
+    margin-top: 72px;
+    font-size: 28px;
+}
+#dl-explain{
+    margin-top: 26px;
+    font-size: 16px;
+}
+#dl-comment{
+    position: relative;
+    display: inline-block;
+    margin-top: 56px;
+    font-size: 18px;
+}
+
+#dl-comment::after{
+    position: absolute;
+    left: -10px;
+    top: 0;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #000;
+    border-radius: 3px;
+    transform: rotate(-25deg);
+}
+#dl-comment::before{
+    position: absolute;
+    content: "";
+    right: -10px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #000;
+    border-radius: 3px;
+    transform: rotate(25deg);
+}
+/* main-bottom */
+/* footer */
+footer{
+    background-color: #333333;
+    height: 125px;
+    text-align: center;
+}
+footer p{
+    line-height: 125px;
+    color: white;
+}
+/* footer */
